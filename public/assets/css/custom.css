@@ -1,0 +1,429 @@
+.swal2-icon.swal2-error {
+  border-color: #ff2727 !important;
+  color: #ff2727 !important;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+  background-color: #ff2727;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+  border: 0.25em solid rgb(97 219 28) !important;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+  background-color: #6ed634 !important;
+}
+
+.swal2-title {
+  color: #333333 !important;
+}
+
+html[data-bs-theme=dark] .swal2-timer-progress-bar {
+  background: rgb(255 255 255) !important;
+}
+
+html[data-bs-theme=dark] .swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+  background-color: #ff2d2d !important;
+}
+
+html[data-bs-theme=light] .swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+  background-color: #ff2d2d !important;
+}
+
+html[data-bs-theme=dark] .swal2-popup {
+  width: 24em !important;
+}
+
+html[data-bs-theme=light] .swal2-popup {
+  width: 24em !important;
+}
+
+.swal2-container {
+  backdrop-filter: blur(4px);
+}
+
+body.swal2-toast-shown .swal2-container.swal2-top-end,
+body.swal2-toast-shown .swal2-container.swal2-top-right {
+  backdrop-filter: blur(0px);
+}
+
+.swal2-html-container {
+  color: black !important;
+}
+
+html[data-bs-theme=dark] .swal2-html-container {
+  color: white !important;
+}
+
+html[data-bs-theme=dark] .showdarkprice {
+  color: white !important;
+}
+
+html[data-bs-theme=dark] .swal2-icon.swal2-info {
+  border-color: #00c0ff !important;
+  color: #00c0ff !important;
+}
+
+.swal2-icon.swal2-info {
+  border-color: #00c0ff !important;
+  color: #00c0ff !important;
+}
+
+
+/*  swal2 end */
+
+#main-content {
+  min-height: 100vh !important;
+}
+
+
+.csradio {
+  /* Add your custom styles here */
+  /* For example: */
+  appearance: none;
+  /* Hide default radio button */
+  width: 20px;
+  height: 20px;
+  border: 2px solid #25396f;
+  border-radius: 50%;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.csradio:checked {
+  border-color: #25396f;
+  /* Change border color when checked */
+  background-color: #25396f;
+  /* Optionally, change background color when checked */
+}
+
+.cslabel {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.login-logo {
+  height: 65px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .display-none-sm {
+    display: none !important;
+  }
+}
+
+
+html[data-bs-theme=light] .modal {
+  backdrop-filter: blur(4px);
+}
+
+html[data-bs-theme=dark] .modal {
+  backdrop-filter: blur(4px);
+}
+
+html[data-bs-theme=light] .modal .modal-header .close {
+  padding: 1px 7px;
+  background: #dee2e6 !important;
+}
+
+html[data-bs-theme=dark] .modal .modal-header .close {
+  padding: 1px 7px;
+  background: #fff !important;
+}
+
+.modal .modal-header i,
+.modal .modal-header svg {
+  height: 23px !important;
+  width: 13px !important;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.user-status {
+  cursor: pointer !important;
+}
+
+.website-status {
+  cursor: pointer !important;
+}
+
+.package-status {
+  cursor: pointer !important;
+}
+
+
+
+html[data-bs-theme=dark] .title-price-card {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  line-height: 44px;
+  /* identical to box height */
+  color: white;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title-price-card {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  line-height: 44px;
+  /* identical to box height */
+  color: #7C8DB5;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title-price-second {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+
+  color: #313131;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title-price-second {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+
+  color: #313131;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.priceInput {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  height: 40px;
+  margin: 0px auto;
+  background: #FAFAFA;
+  border: 2px dashed #92B7FF;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+
+html[data-bs-theme=dark] .totalPrice {
+  width: 200px;
+  height: 65px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: white;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.totalPrice {
+  width: 200px;
+  height: 65px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #222222;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.priceShowType {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 65px;
+
+  color: #222222;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+html[data-bs-theme=dark] .priceShowType {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 65px;
+  color:white;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.price-row {
+  /* margin-right: 1rem !important; */
+  margin-left: 3rem !important;
+}
+
+.payType {
+  font-size: 32px;
+  color: #222222;
+}
+html[data-bs-theme=dark] .payType {
+  font-size: 32px;
+  color: white;
+}
+
+
+html[data-bs-theme=dark] .creditPoint {
+  margin-top: -11px !important;
+}
+
+.packageSelected {
+  cursor: pointer !important;
+}
+
+.numins {
+  top: 11px;
+  position: absolute;
+  padding: 0 0.6rem;
+  left: 0;
+  cursor: pointer;
+
+}
+
+.numdes {
+  top: 11px;
+  position: absolute;
+  padding: 0 0.6rem;
+  right: 0;
+  cursor: pointer;
+}
+
+.method-pay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 18px;
+  height: 48px;
+  background: #FFC949;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #222222;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+html[data-bs-theme=dark] .showdarkprice {
+  color: white !important;
+}
+
+
+.showpriceinlinedollar {
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  color: #333333 !important;
+}
+
+.showpriceinlinePrice {
+  font-size: 48px !important;
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+
+.vs {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  padding-left: 2rem;
+}
+
+@media screen and (max-width:576px) {
+  .mtt-sm-2{
+    margin-top: 0.5rem !important;
+  }
+}
+@media screen and (max-width:1500px) {
+  .me--7{
+    margin-left:0% !important;
+  }
+}
+
+.h-32px{
+  height: 32px !important;
+}
+
+.me--7{
+  margin-left:-7% !important;
+}
